@@ -1,0 +1,131 @@
+.header{
+    width: 100%;
+    height: 500px;
+    /* background-image: url(IMAGE/pageBanner.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+   
+   
+}
+
+li a{
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+    margin: 5px;
+    /* font-weight: bolder; */
+    font-size: 15px;
+    /* transition: 5s; */
+}
+
+li a:hover{
+    color: brown;
+   
+}
+
+.nav{
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+    z-index: 1;
+    
+}
+.header-content{
+    position: absolute;
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    line-height: 20px;
+    
+}
+
+.footer1{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    
+}
+.footer2{
+    margin-top: 80px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+    
+}
+.fab{
+    /* float: right; */
+    margin-left: 20px;
+    color: white;
+}
+form{
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    margin-top: 120px;
+    text-align: center;
+    /* background-color: black; */
+    background-image: url(IMAGE/login2.jpg);
+    box-shadow: 2px 4px ;
+    border: 0;
+    margin-bottom: 5px;
+   
+   
+}
+
+.legend{
+    margin-top: 60px;
+   
+    
+   
+    
+}
+.signform{
+    width: 500px;
+    height: 520px;
+    display: flex;
+    margin-top: 50px;
+}
+
+input[type=text], input[type=email], input[type=password]{
+    width: 70%;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0;
+    color: black;
+    display: block;
+    padding: 4px;
+    
+   
+   
+}
+input[type=text]:hover, input[type=email]:hover, input[type=password]:hover{
+    background-color: brown;
+    
+}
+
+label{
+    font-size: 18px;
+    display: flex;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    margin: auto;
+    
+}
+.btnsignup{
+    width: 70px;
+    border: 0;
+    background-color: brown;
+    color: white;
+    
+}
